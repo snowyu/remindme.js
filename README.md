@@ -30,6 +30,15 @@ ionic g pipe NewPipe
 ionic serve -l
 ```
 
+Other very useful generators available are:
+
+* page
+* component
+* directive
+* pipe
+* provider
+* tabs
+
 ## Plugins
 
 * [cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications)

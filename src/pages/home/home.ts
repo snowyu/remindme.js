@@ -2,10 +2,14 @@ import { Component } from '@angular/core';
 import {NavController, Alert} from 'ionic-angular';
 import {LocalNotifications} from 'ionic-native';
 
+import { AboutPage } from '../about/about';
+
 @Component({
   templateUrl: 'home.html'
 })
 export class HomePage {
+  aboutPage = AboutPage;
+
   constructor(private navController: NavController) {
     LocalNotifications.on("click", (notification, state) => {
       let alert = Alert.create({
@@ -13,7 +17,9 @@ export class HomePage {
         subTitle: "You just clicked the scheduled notification",
         buttons: ["OK"]
       });
-      this.navController.present(alert);
+      this.navController = navController;
+      //this.navController.present(alert);
+      this.navController.push(alert);
     });
   }
 
