@@ -34,6 +34,10 @@ ionic serve -l
 
 * [cordova-plugin-local-notifications](https://github.com/katzer/cordova-plugin-local-notifications)
 
+```
+ionic plugin add de.appplant.cordova.plugin.local-notification
+```
+
 ## License
 
 MIT
