@@ -14,6 +14,14 @@
 The Remindme multiplatform H5 application.
 It is a starter project, try to teach guys to the H5 app development.
 
+
+## Purpose
+
+* Remind me at specified time.
+* Remind me repeatedly.
+  * Reoccurring events
+* Sync the items(reminder) to the server
+
 ## Framework
 
 * Ionic2: http://ionicframework.com/docs/v2/getting-started/installation/
