@@ -1,6 +1,6 @@
 {
   "name": "Remindme",
-  "app_id": "",
+  "app_id": "remindme",
   "v2": true,
   "typescript": true
 }
