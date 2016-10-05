@@ -55,6 +55,16 @@ Other very useful generators available are:
 ionic plugin add de.appplant.cordova.plugin.local-notification
 ```
 
+## UI
+
+* Events - Main Page
+  * Add/Edit Event
+  * Select DateTime
+  * Select Reoccurring
+  * Select Location(optional)
+* Settings
+* About
+
 ## License
 
 MIT
